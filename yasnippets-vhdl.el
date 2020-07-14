@@ -1,4 +1,4 @@
-;;; yasnippet-vhdl.el --- Yasnippets for Vhdl
+;;; yasnippets-vhdl.el --- Yasnippets for Vhdl
 
 ;; Copyright (C) 2020 Enze Chi
 
