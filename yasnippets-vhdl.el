@@ -3,7 +3,7 @@
 ;; Copyright (C) 2020 Enze Chi
 
 ;; Author: Enze Chi
-;; Version: 0.0.1
+;; Version: 0.1.0
 ;; URL: https://github.com/ezchi/yasnippets-vhdl.git
 ;; Package-Requires: ((yasnippet "0.8.0"))
 
