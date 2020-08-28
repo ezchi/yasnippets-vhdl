@@ -25,7 +25,8 @@
 
 ;;;###autoload
 (eval-after-load 'yasnippet
-  '(yasnippets-vhdl-initialize))
+  (yas-minor-mode-on)
+  (yasnippets-vhdl-initialize))
 
 (provide 'yasnippets-vhdl)
 
