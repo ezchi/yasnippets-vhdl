@@ -24,7 +24,7 @@
     (yas-load-directory snip-dir)))
 
 ;;;###autoload
-(eval-after-load 'yasnippet
+(with-eval-after-load 'yasnippet
   (yas-minor-mode-on)
   (yasnippets-vhdl-initialize))
 
