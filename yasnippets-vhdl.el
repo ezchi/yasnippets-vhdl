@@ -18,6 +18,7 @@
 
 ;;;###autoload
 (defun yasnippets-vhdl-initialize ()
+  "Add yasnippets-vhdl directory to YAS."
   (let ((snip-dir (expand-file-name "snippets" yasnippets-vhdl-root)))
     (when (boundp 'yas-snippet-dirs)
       (add-to-list 'yas-snippet-dirs snip-dir t))
@@ -25,7 +26,6 @@
 
 ;;;###autoload
 (with-eval-after-load 'yasnippet
-  (yas-minor-mode-on)
   (yasnippets-vhdl-initialize))
 
 (provide 'yasnippets-vhdl)
